@@ -1,0 +1,8 @@
+{
+  "name": "xwjs",  // Worker 名称，可自定义（比如你的仓库名）
+  "compatibility_date": "2026-02-05",  // 兼容日期，保持这个值即可
+  "assets": {
+    "directory": ".",  // 部署根目录下的所有静态文件（匹配你的截图结构）
+    "main_page": "index.html"  // 指定首页为 index.html，确保访问根路径时加载首页
+  }
+}
