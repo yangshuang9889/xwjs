@@ -6,20 +6,20 @@ const CONFIG = {
             title: "《植物大战僵尸：重植版》闪电之关气氛变诡异了（8）",
             desc: "经典游戏重植版，闪电关卡氛围突变，东北话解说带你解锁不一样的植物防御体验！",
             duration: "22:45",
-            view: "308",
-            comment: "22",
-            date: "2小时前",
-            cover: "https://picsum.photos/350/200?random=3", // 尺寸匹配封面容器
+            view: "999+",
+            comment: "99+",
+            date: "2026年2月5日",
+            cover: "https://xwjs.xiaxia.ggff.net\image\cover1.jpg", // 尺寸匹配封面容器
             link: "https://space.bilibili.com/273715"
         },
         {
             title: "《FC双截龙3：摩登时代》除了双龙兄弟，别人都提速了",
             desc: "怀旧FC经典游戏改版，角色提速玩法升级，东北话吐槽带你重温童年热血！",
             duration: "35:52",
-            view: "1127",
-            comment: "69",
-            date: "昨天",
-            cover: "https://picsum.photos/350/200?random=4",
+            view: "999+",
+            comment: "99+",
+            date: "2026年2月4日",
+            cover: "https://xwjs.xiaxia.ggff.net\image\cover2.jpg",
             link: "https://space.bilibili.com/273715"
         },
         {
@@ -75,4 +75,5 @@ const CONFIG = {
         email: "example@xxx.com",
         weibo: "@小握解说"
     }
+
 };
