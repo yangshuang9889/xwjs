@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小握解说 - 东北话游戏解说天花板</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入图标库 -->
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                <h1>小握解说</h1>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="active">首页</a>
+                <a href="#works">代表作</a>
+                <a href="#feature">创作特点</a>
+                <a href="#platform">平台矩阵</a>
+                <a href="#live" class="live-btn">直播间</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 英雄区 -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-left">
+                <h2>用东北话解锁游戏欢乐</h2>
+                <p>自2011年深耕游戏解说，以接地气的东北方言、幽默吐槽，带你重温怀旧经典、勇闯恐怖解谜、玩转休闲创意！</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="num">5.0万</span>
+                        <span class="text">粉丝</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="num">63.8万</span>
+                        <span class="text">获赞</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="num">2439.7万</span>
+                        <span class="text">播放</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="num">999+</span>
+                        <span class="text">投稿</span>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <a href="https://space.bilibili.com/273715" target="_blank" class="btn primary-btn">
+                        <i class="fab fa-bilibili"></i> 访问B站主页
+                    </a>
+                    <a href="#works" class="btn secondary-btn">
+                        <i class="fas fa-play-circle"></i> 查看代表作
+                    </a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="avatar-box">
+                    <!-- 占位图尺寸匹配容器（300x300），避免缩放变形 -->
+                    <img src="https://picsum.photos/300/300?random=1" alt="小握解说头像" class="avatar">
+                    <div class="avatar-badge">12年资深解说</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 代表作区 -->
+    <section id="works" class="works">
+        <div class="container">
+            <div class="section-title">
+                <h2>近期代表作</h2>
+                <p>高产UP主，日均1-3更，每部作品都藏着不一样的欢乐</p>
+            </div>
+            <div class="works-list" id="worksContainer">
+                <!-- 视频卡片将通过JS动态加载 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 创作特点区 -->
+    <section id="feature" class="feature">
+        <div class="container">
+            <div class="section-title">
+                <h2>创作特点</h2>
+                <p>专注差异化内容，打造独特解说风格</p>
+            </div>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone-alt"></i>
+                    </div>
+                    <h3>东北方言解说</h3>
+                    <p>接地气的东北话+幽默吐槽，解说有感染力，让游戏过程更具趣味性</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>多元内容方向</h3>
+                    <p>覆盖怀旧FC经典、恐怖解谜、休闲创意三大品类，满足不同玩家需求</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>高产稳定更新</h3>
+                    <p>日均1-3更，单视频时长20-60分钟，持续输出优质内容</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>系列化创作</h3>
+                    <p>380个合集系列，内容连贯易追更，沉淀核心粉丝群体</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 平台矩阵区 -->
+    <section id="platform" class="platform">
+        <div class="container">
+            <div class="section-title">
+                <h2>平台矩阵</h2>
+                <p>多平台同步更新，随时随地看解说</p>
+            </div>
+            <div class="platform-list">
+                <a href="https://space.bilibili.com/273715" target="_blank" class="platform-item">
+                    <i class="fab fa-bilibili"></i>
+                    <h3>B站</h3>
+                    <p>核心阵地·全量内容</p>
+                </a>
+                <a href="#" target="_blank" class="platform-item">
+                    <i class="fab fa-youku"></i>
+                    <h3>优酷</h3>
+                    <p>怀旧系列·专题合集</p>
+                </a>
+                <a href="#" target="_blank" class="platform-item">
+                    <i class="fab fa-tiktok"></i>
+                    <h3>抖音</h3>
+                    <p>短视频·精彩片段</p>
+                </a>
+                <a href="https://live.bilibili.com/841456" target="_blank" class="platform-item">
+                    <i class="fas fa-tower-broadcast"></i>
+                    <h3>直播间</h3>
+                    <p>实时互动·直播回放</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 直播预约区 -->
+    <section id="live" class="live">
+        <div class="container">
+            <div class="live-content">
+                <div class="live-left">
+                    <h2>直播预约</h2>
+                    <p>主播开播将通过动态通知，关注后第一时间获取直播提醒，实时互动解锁更多游戏乐趣！</p>
+                    <a href="https://live.bilibili.com/841456" target="_blank" class="btn live-btn">
+                        <i class="fas fa-video"></i> 前往直播间
+                    </a>
+                </div>
+                <div class="live-right">
+                    <!-- 占位图尺寸匹配容器（600x400），避免缩放变形 -->
+                    <img src="https://picsum.photos/600/400?random=2" alt="直播封面" class="live-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-gamepad"></i>
+                    <h2>小握解说</h2>
+                    <p>自2011年底开启东北流游戏解说，希望能给大家带来不一样的欢乐！</p>
+                </div>
+                <div class="footer-links">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#works">代表作</a></li>
+                        <li><a href="#feature">创作特点</a></li>
+                        <li><a href="#platform">平台矩阵</a></li>
+                        <li><a href="#live">直播间</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>联系我</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> 邮箱：example@xxx.com</li>
+                        <li><i class="fas fa-weibo"></i> 微博：@小握解说</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 小握解说 版权所有 | 东北话游戏解说第一品牌</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script>
+        // 动态加载代表作视频卡片
+        const worksContainer = document.getElementById('worksContainer');
+        const renderWorks = () => {
+            let html = '';
+            CONFIG.worksList.forEach(work => {
+                html += `
+                    <div class="works-card">
+                        <div class="card-cover">
+                            <img src="${work.cover}" alt="${work.title}">
+                            <span class="card-duration">${work.duration}</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">${work.title}</h3>
+                            <p class="card-desc">${work.desc}</p>
+                            <div class="card-meta">
+                                <span><i class="fas fa-eye"></i> ${work.view}</span>
+                                <span><i class="fas fa-comment"></i> ${work.comment}</span>
+                                <span><i class="fas fa-calendar"></i> ${work.date}</span>
+                            </div>
+                            <a href="${work.link}" target="_blank" class="card-btn">立即观看</a>
+                        </div>
+                    </div>
+                `;
+            });
+            worksContainer.innerHTML = html;
+        };
+
+        // 页面加载完成后执行
+        window.onload = () => {
+            renderWorks();
+            // 导航栏滚动效果
+            const nav = document.querySelector('.nav');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    nav.classList.add('nav-scrolled');
+                } else {
+                    nav.classList.remove('nav-scrolled');
+                }
+            });
+        };
+    </script>
+</body>
+</html>
